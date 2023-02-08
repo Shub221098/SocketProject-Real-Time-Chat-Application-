@@ -1,0 +1,28 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="/public/style.css" />
+    <script defer src="http://localhost:5000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <img src="/public/wassup.png" class="logo" />
+      <h1>Welcome to FriendsChat App</h1>
+    </nav>
+    <div class="container">
+      <div class="message left">Harry: Hey how are you?</div>
+      <div class="message right">Rohan: Hey I am fine.</div>
+    </div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageImp" id="messageImp" />
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </body>
+</html>

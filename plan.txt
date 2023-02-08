@@ -1,0 +1,11 @@
+TODO LIST: 
+
+1. Create NPM Project
+2. Create Index, Css, Js files
+3. Install dependancies, express, nodemon(dev dep.)
+4. Create a express server (server.js)
+5. do frontend part
+6. Install socket.io, Setup socket.io in server.Js and  client client.Js
+7. Client send message logic in client.Js
+8. Receive message on server and broadcast to all clients
+9.  
